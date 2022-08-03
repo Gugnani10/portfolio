@@ -1,0 +1,133 @@
+
+body{
+    margin:0px 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 130%;
+    background-color: #2d383c;
+    color: white;
+}
+
+hr{
+    margin: 50px auto;
+    width:10%;
+    border-style: dotted none none none;
+    border-width: 5px;
+    color: #a9cfcf;
+}
+
+h1{
+    font-size:5.625rem;
+    margin: 50px auto 0px auto;
+    font-family:'Merriweather', serif;
+    color: #66BFBF;
+
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight:normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+
+a{
+    color:#11999E;
+    margin: 10px 20px;
+}
+
+.start-note{
+    color:#white ;
+    width: 30%;
+    margin: auto;
+}
+
+
+.top-container{
+    /* background-color:#0c3721; */
+    position:relative;
+    padding-top:100px;
+
+}
+
+.middle-container{
+    /* margin: 100px 0; */
+}
+
+.bottom-container{
+    margin-top: 50px;
+    /* background-color: #66BFBF; */
+    padding: 50px 0 20px;
+}
+
+.bottom-plane{
+    position:absolute;
+    right:300px;
+    top:50px;
+    height:100px;
+    width:100px;
+/*  */
+
+}
+
+.top-plane{
+    position:absolute;
+    left:200px;
+    bottom:50px;
+    height:100px;
+    width:100px;
+
+}
+
+.skill-row{
+    width: 50%;
+    margin:200px auto;
+    text-align:left;
+    line-height:1.5;
+    /* margin:; */
+}
+
+.skill-img{
+    width:40%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilli-img{
+    width:40%;
+    float: right;
+    margin-left:30px;
+}
+
+
+
+.btn{
+    border-radius: 8px;
+    background-image: linear-gradient( #11cdd4,#11999e);
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    margin: 4px;
+}
+.btn:hover{
+    background-image: linear-gradient( #30e3cb,#2bc4ad);
+}
+
+.copy-right{
+    color: #EAF6F6;
+    padding-top: 20px;
+}
+
+.profile{
+    padding: 100px 0;
+    /* background-color: rgb(171, 194, 220); */
+}
+.skills{
+    padding: 100px 0;
+    /* background-color: rgb(198, 226, 244); */
+}
